@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Instagram';
+    src: url('fonte/Valentine\ Things.otf') format('opentype');
+    font-weight: bolder;
+}
+
+body {
+    background-color: rgba(194, 7, 107, 0.685);
+    color: white;
+}
+
+header img {
+    width: 100%;
+ }
+
+ header img.pequena {
+    max-width: 200px;
+    display: block;
+    margin: auto;
+ }
+ 
+main {
+    max-width: 1450px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+ 
+ h1 {
+     font-family: 'Instagram';
+     font-size: 50px;
+     text-align: center;
+ }
+
+ p {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-size: 25px;
+ }
+
+div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 30px;
+}
+
+button {
+    font-family: 'Instagram';
+    font-size: 30px;
+    font-weight: bold;
+    color: rgba(194, 7, 107, 0.911);
+    border: none;
+    height: 60px;
+    width: 150px;
+    line-height: 30px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 30px;
+    transform: scale(1.05);
+}
